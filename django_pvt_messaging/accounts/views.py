@@ -27,8 +27,7 @@ def login(request):
             
             if user is not None:
                 auth_login(request, user) # Login user using Django's built-in login function
-                #return redirect('user-dashboard')
-                return HttpResponse("Login successful!")
+                return redirect('inbox')
 
 
     context = {'LoginForm': form} # Pass form to template
