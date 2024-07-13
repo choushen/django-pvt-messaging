@@ -64,9 +64,9 @@ This project is a backend-focused messaging application built using Django, cris
 
 ## Project Structure
 
+- **django_pvt_messaging:** Main project settings and URL configurations.
 - **accounts:** Contains the custom user model and user management logic.
 - **messenger:** Contains the messaging logic, views, and templates.
-- **templates/messenger:** HTML templates for the messaging application.
 
 ## Key Files
 
