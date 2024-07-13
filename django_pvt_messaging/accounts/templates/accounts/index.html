@@ -1,0 +1,119 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+
+          <title> Django Messaging App </title>
+
+
+          <meta charset="utf-8" />
+
+          <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1"/>
+
+
+          <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/superhero/bootstrap.min.css">
+
+
+          <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+
+        </head>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+
+            <a id="nav-heading" class="navbar-brand main-heading"> 
+                    
+              &nbsp; Django Messaging App
+            
+            </a>
+        
+        
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+        
+            </button>
+        
+        
+              <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+        
+                
+                <ul class="navbar-nav ms-auto">
+        
+        
+                  &nbsp;     &nbsp;     &nbsp; 
+        
+        
+                  <li class="nav-item">
+              
+                    <a class="btn btn-secondary navbar-btn" type="button" href="{% url 'registration' %}">Register</a>
+        
+                  </li>
+        
+        
+                  &nbsp;     &nbsp;     &nbsp; 
+                  
+        
+                  <li class="nav-item">
+        
+                    <a class="btn btn-secondary navbar-btn" type="button" href="{% url 'login' %}">Login</a>
+        
+                  </li>
+        
+        
+                  &nbsp;     &nbsp;     &nbsp; 
+                  
+        
+                </ul>
+              
+                
+              </div>
+        
+        
+        </nav>
+
+
+        <body>
+            <br><br>
+            <div class="text-center">
+                <h5 class="text-dark-emphasis">Start chatting!</h5>
+                <br>
+                <!--Write a p tag similar to the one below based on a messaging app-->
+                <p class="text-dark">Connect with your friends and family. Send messages and get updates.</p>
+                <br>
+                <a class="btn btn-success" href="{% url 'registration' %}" type="button" href="#">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i> &nbsp; Get Started
+                </a>
+            </div>
+        </body>
+        
+
+
+        <script 
+        src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous">
+        </script>
+
+        <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous">
+        </script>
+
+        <script src="{% static '' %}"></script>
+
+
+    </html>
+
