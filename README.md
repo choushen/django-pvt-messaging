@@ -1,6 +1,6 @@
 # Django Private Messaging App
 
-This project is a backend-focused messaging application built using Django, crispy forms, and Bootstrap. It includes a custom user manager and is designed to be integrated into other projects when needed. The frontend is minimalistic as the primary goal of this project was to implement the backend logic.
+This project is a backend-focused messaging application built using Django, crispy forms, and Bootstrap. It includes a custom user manager and is designed to be integrated into other projects when needed. The frontend is minimalistic and the template inheritance needs work, but this project's primary goal was to implement the backend logic.
 
 ## Features
 
